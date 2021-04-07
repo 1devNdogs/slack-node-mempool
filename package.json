@@ -1,0 +1,33 @@
+{
+  "name": "slack-node-mempool",
+  "version": "1.0.0",
+  "description": "pew pew ...",
+  "main": "index.js",
+  "engines": {
+    "node": "13.7.x"
+  },
+  "scripts": {
+    "start": "node ./build/index.js",
+    "dev": "nodemon --exec babel-node ./src/index.js",
+    "build": "babel -d ./build ./src -s"
+  },
+  "author": "1devndogs",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/plugin-transform-runtime": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "nodemon": "2.0.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.9",
+    "@uniswap/sdk": "^3.0.3",
+    "bnc-sdk": "^3.1.1",
+    "dotenv": "^8.2.0",
+    "ethers": "^5.0.30",
+    "moment": "^2.29.1",
+    "request": "^2.88.2",
+    "ws": "^7.4.2"
+  }
+}
