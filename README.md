@@ -1,15 +1,15 @@
 # Mini Blocknative-Slack Script
 
-Thats it, shitty sintax but i made this in a couple of ours.
+Thats it, shitty sintax but i made this in a couple of hours.
 
 As pre requisites:
 
 - Create an slack APP
-- Attack it to a workspace
+- Attach it to a workspace
 - Create a webhook action
 - Check and confgigure you app security, if u want.
 
-U need to check several things.
+You need to check several things.
 
 **1.-Check the package.json file**
 
